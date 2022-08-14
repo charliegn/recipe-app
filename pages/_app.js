@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <nav className="header">
         <div>
           <Link href="/">
-            <a>Kap's Kitchen 🍍</a>
+            <a>Charlie's Kitchen</a>
           </Link>
         </div>
       </nav>
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </main>
     </>
-  );
+  )
 }
 
 export default MyApp;

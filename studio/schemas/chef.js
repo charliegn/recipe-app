@@ -1,3 +1,4 @@
+
 export default {
   name: "chef",
   title: "Chef",
@@ -22,12 +23,12 @@ export default {
       type: "array",
       of: [
         {
-          title: "Block",
-          type: "block",
+          title: 'Block',
+          type: 'block',
           styles: [{ title: "Normal", value: "normal" }],
           lists: [],
         },
       ],
     },
   ],
-};
+}

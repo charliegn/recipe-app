@@ -4,12 +4,11 @@
     "name": "studio"
   },
   "api": {
-    "projectId": "hajlrit4",
+    "projectId": "nkzvxcgd",
     "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
-    "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool"

@@ -1,10 +1,11 @@
+
 export default {
   name: "ingredient",
   title: "Ingredient",
   type: "document",
   fields: [
     {
-      name: "name",
+      name: 'name',
       title: "Ingredient Name",
       type: "string",
     },
@@ -12,14 +13,14 @@ export default {
       name: "image",
       title: "Image",
       type: "image",
-      option: {
+      options: {
         hotspot: true,
       },
     },
     {
-      name: "notes",
-      title: "Notes",
-      type: "text",
+      name: 'notes',
+      title: 'Notes',
+      type: 'text',
     },
   ],
-};
+}
