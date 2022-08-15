@@ -1,5 +1,5 @@
 {
-  "name": "Recipe App",
+  "name": "recipe-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@sanity/client": "^2.8.0",
+    "@sanity/client": "^2.23.2",
     "next": "10.2.0",
     "next-sanity": "^0.2.0",
     "react": "17.0.2",
